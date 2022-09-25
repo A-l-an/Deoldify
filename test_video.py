@@ -35,8 +35,9 @@ colorizer = get_video_colorizer()
 #NOTE:  Max is 44 with 11GB video cards.  21 is a good default
 render_factor=21
 #NOTE:  Make source_url None to just read from file at ./video/source/[file_name] directly without modification
-source_url='https://twitter.com/silentmoviegifs/status/1116751583386034176'
-file_name = 'DogShy1926'
+# source_url='https://twitter.com/silentmoviegifs/status/1116751583386034176'
+source_url = None
+file_name = 'IMG_8705'
 file_name_ext = file_name + '.mp4'
 result_path = None
 
